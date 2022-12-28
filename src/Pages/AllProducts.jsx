@@ -10,6 +10,7 @@ import { useLocation, useSearchParams } from "react-router-dom";
 import Navbar from "../components/Navbar/Navbar";
 // import Paginate from "../components/Paginatation/Paginate";
 //import FilterChecked from "../Filter/Filters/FilterChecked";
+
 const AllProducts = () => {
   const dispatch = useDispatch();
   const products = useSelector((store) => store?.dataReducer?.products);

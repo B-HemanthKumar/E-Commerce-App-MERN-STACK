@@ -14,7 +14,7 @@ const Home = () => {
   return (
     <div>
       <Navbar/> <br/>
-      {loading ? (
+      { loading ? (
         <Loading />
       ) : (
         <Box w="95%" m="auto">
